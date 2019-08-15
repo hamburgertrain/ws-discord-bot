@@ -31,3 +31,9 @@ cd to root directory of repo
 ```
 . start.sh
 ```
+
+or
+
+```
+python3 bot.py
+```
