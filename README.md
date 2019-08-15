@@ -1,5 +1,6 @@
 # ws-discord-bot
  Discord bot for Raspberry Pi weather station.
+ Responds to '!temp' with temperature and humidity readings.
 
 ## Getting Started
 
@@ -10,7 +11,7 @@
 sudo apt-get install python3 python3-pip
 ```
 
-#### Install pip packages for discord and Adafruit DHT
+#### Install pip packages for Discord and Adafruit DHT
 ```
 sudo pip3 install Adafruit_DHT
 ```
@@ -21,7 +22,7 @@ python3 -m pip install -U discord.py
 ### Config and Running
 
 #### Insert your discord bot API key
-In bot.py, change bot_token to your discord bot token
+In bot.py, change bot_token to your Discord bot token
 ```python
 bot_token = 'YOUR_DISCORD_BOT_TOKEN_HERE'
 ```
