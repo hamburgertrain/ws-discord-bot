@@ -7,6 +7,7 @@
 ### Installing Dependencies
 
 https://github.com/Rapptz/discord.py
+
 https://github.com/adafruit/Adafruit_Python_DHT
 
 #### Install python3 and python3-pip
